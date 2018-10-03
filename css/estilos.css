@@ -1,0 +1,36 @@
+body{
+	background: #FFDA94;
+	color: gray;
+	margin: 0px auto;
+	max-width: 1024px;	
+}
+header{
+	background: #BDE5FE;
+	border-radius: 10px;
+	color:black;
+	text-align: center;
+	/*padding-top:5px;*/
+	padding: 5px 0px 0px 0px;
+}
+
+header img {
+	width: 100px;
+}	
+header nav ul li{
+	background: #B6A4CD;
+	border-radius: 5px;
+	box-shadow: 5px 5px black;
+	color:white;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px;
+	width: 118px;
+	}
+header nav ul li:hover{
+	background: white;
+	color:#B6A4CD;
+	box-shadow: 5px 5px white;
+
+
+}
+
