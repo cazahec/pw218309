@@ -1,0 +1,36 @@
+body{
+	background: #2b2b2b;
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1078px;
+	min-height: 1078px;
+}
+header{
+	background: #ffffff;
+}
+header input{
+	float: left;
+	margin-left: 100px;
+	position: relative;
+	margin-top: 5px; 
+}
+header img{
+	width: 69%;
+}
+#logo {
+	width: 50%;
+}
+#primeraseccion article{
+	/*border:1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+}
+.colorblanco{
+	color:#ffffff;
+}
+.colorgris{
+	color:#838383;
+}
+.colorazul{
+	color:#415b69;
+}
