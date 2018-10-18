@@ -1,0 +1,59 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1078px;
+	min-height: 1078px;
+}
+header{
+	height: 240px;
+}
+header nav ul li{
+	color: black;
+	display: inline-block;
+	font-size: 1em;
+	margin-right: 15px;
+	padding-bottom: 2px;
+}
+#bandera{
+	left:900px;
+	position: relative;
+	top:-70px;
+	width:30px; 
+}
+#buy{
+	left:300px;
+	position: relative;
+	top:5px;
+	width: 50px;
+}
+#caja{
+	border-bottom:1px dashed green;
+}
+#firstbike{
+	margin-left: 30px;
+	margin-top: 50px;
+}
+#gotoshop{
+	left:300px;
+	position: relative;
+	top:-30px;
+	width: 150px;
+}
+#logorojo{
+	left:900px;
+	position: relative;
+	top:-70px;
+	width:30px; 
+}
+#mundo{
+	left:900px;
+	position: relative;
+	top:-70px;
+	width:35px; 
+}
+.colorverde{
+	color:#74f33e;
+}
+.letragrande{
+	font-size: 3.5em;
+}
