@@ -17,14 +17,30 @@ var numeros= function(){
 		document.getElementById("operando1").value+=valor;
 	}
 	else {//operando2
-		if (operador==""){
+		
 		var valorInput=document.getElementById("operando2").value;
 		if (valorInput=="0"){
 			document.getElementById("operando2").value="";
-		}
+			}
 		document.getElementById("operando2").value+=valor;	
-	}
-}		
+		
+	}		
+}
+var operadores = function(){
+	operador=this.value
+}
+
+var resultadoIgual = function(){
+	oper1=document.getElementById('operando1').value
+	oper2=document.getElementById('operando2').value
+	document.getElementById('resultado').value=eval(oper1+operador+oper2)
+}
+
+var reinicio =function(){
+	document.getElementById('operando1').value="0"
+	document.getElementById('operando2').value="0"
+	document.getElementById('resultado').value="0"
+	operador=""
 }
 
 var operando1=document.getElementById("operando1")
@@ -66,17 +82,20 @@ var nueve=document.getElementById("nueve")
 	nueve.addEventListener("click",numeros)
 
 var suma=document.getElementById("suma")
-	suma.addEventListener("click",numeros)
+	suma.addEventListener("click",operadores)
  
 var resta=document.getElementById("resta")
-	resta.addEventListener("click",numeros)
+	resta.addEventListener("click",operadores)
 
 var multiplicacion=document.getElementById("multiplicacion")
-	multiplicacion.addEventListener("click",numeros)
+	multiplicacion.addEventListener("click",operadores)
 
 var division=document.getElementById("division")
-	division.addEventListener("click",numeros)
+	division.addEventListener("click",operadores)
 
 var igual=document.getElementById("igual")
-	igual.addEventListener("click",numeros)
+	igual.addEventListener("click",resultadoIgual)
+
+var reiniciar=document.getElementById("reiniciar")
+	reiniciar.addEventListener("click",reinicio)
 }
