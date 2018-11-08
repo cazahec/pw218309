@@ -4,7 +4,9 @@
   "description": "aprender a instalar paquetes de node y proyectos",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "empaqueta": "electron-packager . Calculadora --overwrite --asar"
   },
   "keywords": [
     "Inicio",
@@ -16,8 +18,10 @@
   "author": "Hector Cazares",
   "license": "MIT",
   "devDependencies": {
+    "asar": "^0.14.5",
     "electron": "^3.0.8",
     "electron-packager": "^12.2.0",
     "electron-require": "^0.3.0"
-  }
+  },
+  "dependencies": {}
 }
