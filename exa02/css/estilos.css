@@ -1,6 +1,117 @@
 body{
-	max-width: 1024px;
-	min-width: 1024px;
+	max-width: 1180px;
 	margin: 0px auto;
 	border: 1px solid black;
+}
+header img{
+	top: 10px;
+	margin-right: 120px;
+}
+header input{
+	position: relative;
+	border-radius: 1px;
+	width: 400px;
+	bottom: 10px;
+}
+
+#aditii{
+	position: relative;
+	width: 120px;
+	margin-left: 150px;
+}
+#canasta{
+	position: relative;
+	width: 120px;
+	left: 80px;
+}
+#seccion01{
+	background: #53cec1;
+	height: 40px;
+}
+#seccion01 nav{
+	text-align: center;
+}
+#seccion01 nav ul{
+	list-style: none;
+}
+#seccion01 nav ul li{
+	display: inline-block;
+	padding-top: 10px;
+	margin-left: 5px;
+}
+#seccion02{
+	background: #4fc4b7;
+	border: 2px solid #4ab9ab;
+}
+#secc02art01{
+	width: 61%;
+	padding-top: 80px;
+	padding-left: 110px;
+}
+#secc02art01 input{
+	background: #4fc4b7;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	border-color: white;	
+	width: 140px;
+	height: 50px;
+	margin-top: 10px;
+}
+#secc02art02 {
+	margin-left: 700px;
+	width: 30%;
+}
+#secc02art02 img{
+	height: 200px;
+	width: 300px;
+	position: relative;
+	bottom: 160px;
+}
+#seccion03{	
+	background: #50c4b2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 110px;
+}
+#seccion04 {
+	padding-top: 60px;
+}
+#seccion04 article{
+	display: inline-block;
+	border: 1px solid black;
+	border-bottom: 5px solid #54bd90;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin-left: 70px;
+	margin-bottom: 23px;
+	width: 25%
+}
+#seccion04 input{
+	background: #58c495;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	width: 90px;
+	height: 40px;
+	margin-left: 30px;
+}
+.letrachica{
+	font-size: 1em;
+}
+.letramediana{
+	font-size: 1.4em;
+}
+.letragrande{
+	font-size: 1.8em;
+}
+.colorblanco{
+	color: white;
+}
+.colorgris{
+	color: #99999d;
+}
+.nito{
+	font-weight: bold;
 }
