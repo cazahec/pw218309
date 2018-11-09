@@ -1,59 +1,113 @@
 body{
 	font-size: 16px;
+	max-width: 1024px;
 	margin: 0px auto;
-	max-width: 1078px;
-	min-height: 1078px;
+	border: 1px solid black;
 }
+
 header{
-	height: 240px;
+	border-bottom: 2px dashed;
+	height: 220px;
 }
+
 header nav ul li{
-	color: black;
 	display: inline-block;
-	font-size: 1em;
 	margin-right: 15px;
-	padding-bottom: 2px;
-}
-#bandera{
-	left:900px;
+	margin-top: 50px;
 	position: relative;
-	top:-70px;
-	width:30px; 
-}
-#buy{
-	left:300px;
-	position: relative;
-	top:5px;
-	width: 50px;
-}
-#caja{
-	border-bottom:1px dashed green;
+	right: 30px;
+
+
 }
 #firstbike{
-	margin-left: 30px;
-	margin-top: 50px;
-}
-#gotoshop{
-	left:300px;
+	width: 180px;
+	margin-top: 25px;
 	position: relative;
-	top:-30px;
-	width: 150px;
+	left: 10px;
+}
+#buy{
+	width: 60px;
+	left: 550px;
+	position: relative;
+	top: -80px;
+}
+#shop{
+	left: 550px;
+	position: relative;
+	top: -140px;
 }
 #logorojo{
-	left:900px;
+	top: -220px;
+	left: 560px;
 	position: relative;
-	top:-70px;
-	width:30px; 
+}
+#bandera{
+	top: -220px;
+	left: 565px;
+	position: relative;
 }
 #mundo{
-	left:900px;
+	top: -220px;
+	left: 570px;
 	position: relative;
-	top:-70px;
-	width:35px; 
 }
-.colorverde{
-	color:#74f33e;
+#secc01art01 {
+	border-bottom: 2px dashed;
+	margin-top: 20px;
+	margin-left: 20px
+}
+#secc01art02{
+	margin-top: 50px;
+	margin-left: 20px;
+	width: 60%;
+	text-align: justify;
+}
+#video01{
+	width: 300px;
+	margin-right: 10px;
+}
+#video02{
+	width: 300px;
+}
+#bicicleta{
+	width: 364px;
+	position: relative;
+	top: -505px;
+	left: 660px;	
+}
+#garantia{
+	position: relative;
+	top: -450px;
+	left: 280px;
+}
+#seccion02{
+	margin-top: -400px;
+	margin-left: 15px;
+	padding-bottom: 30px;
+}
+#seccion03 article{
+	border-top: 1px dashed gray;
+	vertical-align: top;
+	display: inline-block;
+	width: 17%;
+	margin-left: 20px;
+}
+#seccion03 article span{
+	position: relative;
+	top: -30px;
 }
 .letragrande{
-	font-size: 3.5em;
+	font-size: 4em;
+}
+.letranormal{
+	font-size: 1.1em;
+}
+.nito{
+	font-weight: bold;
+}
+.colorverde{
+	color: #75e33c;
+}
+.colorgris{
+	color: #818181
 }

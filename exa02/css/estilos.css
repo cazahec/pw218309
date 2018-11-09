@@ -1,0 +1,6 @@
+body{
+	max-width: 1024px;
+	min-width: 1024px;
+	margin: 0px auto;
+	border: 1px solid black;
+}

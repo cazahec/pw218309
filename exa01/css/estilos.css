@@ -1,0 +1,156 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1024px;
+	min-height: 1024px;
+	background: #393939;
+	border: 1px solid black;
+}
+header nav{
+	position: relative;
+	left: 150px;
+	top: 10px;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	display: inline-block;
+	margin-left: 50px;
+}
+header input{
+	float: right;
+	position: relative;
+	bottom: 30px;
+	margin-right: 15px;
+	width: 90px;
+	height: 40px;
+	border-radius: 5px;
+}
+#sitepoint{
+	float: left;
+	
+}
+#location{
+	position: relative;
+	bottom: 32px;
+	left: 170px;
+}
+#books{
+	position: relative;
+	bottom: 32px;
+	left: 285px;
+}
+#camera{
+	position: relative;
+	bottom: 32px;
+	left: 345px
+}
+#letter{
+	position: relative;
+	bottom: 32px;
+	left: 405px
+}
+#login{
+	background: #393939;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+}
+#sign{
+	background: #4bc8cb;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;	
+}
+#seccion01{
+	background: #e85286;
+}
+#secc01art01{
+	position: relative;
+	top: 20px;
+}
+#secc01art02{
+	position: relative;
+	text-align: center;
+	bottom: 20px;
+}
+#secc01art03{
+	float: right;
+	position: relative;
+	bottom: 57px;
+	margin-right: 35px;
+}
+#secc01art03 input{
+	background: white;
+	color: #e85286;
+	height:45px; 
+	width: 300px;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 5px;
+	border:none;
+}
+#seccion02{
+	height: 400px;
+}
+#secc02art01{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+#secc02art01 input{
+	background: #4bc8cb;
+	color: white;	
+	border: none;
+	border-radius: 5px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 50px;
+	height: 70px;
+	width: 200px;
+}
+
+#libros{
+	height: 300px;
+	width: 400px;
+	position: relative;
+	bottom: 560px;
+}
+#fondo{
+	position: relative;
+	float: right;
+	bottom: 220px;
+}
+#fondo2{
+	position: relative;
+	float: left;
+	bottom: 340px;
+}
+#seccion03{
+	background: #ef8e3c;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+#seccion03 article{
+	position: relative;
+	right: 500px;
+}
+}
+.letrachica{
+	font-size: 1em;
+}
+.letramediana{
+	font-size: 1.3em;
+}
+.letragrande{
+	font-size: 1.5em;
+}
+.letramega{
+	font-size: 2em;
+}
+.colorblanco{
+	color: white;
+}
+.nito{
+	font-weight: bold;
+}
